@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style:  none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 20px 30px;
+  border:  1px solid #EAEAEA;
+  border-radius:  15px;
+  margin-bottom: 10px;
+}
+
+form {
+  width:  100%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.delete-todo {
+  background:  none;
+  float:  right;
+  display:  inline-block;
+  border:  none;
+}
+
+.delete-todo:hover {
+  cursor:  pointer;
+}
+
+#addTodo {
+  text-align: center;
+}
+
+#addTodo input {
+  margin-right:  10px;
+}
+
+#addTodo input,
+#addTodo button {
+  height: 40px;
+}
